@@ -3,52 +3,26 @@ body {
 }
 
 nav {
+    display: grid;
     width: 100%;
-    grid-template-columns: 1fr 1fr 80% 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    grid-template-columns: 1fr 1fr 75% 1fr 1fr 1fr 1fr;
     overflow: hidden;
 }
-li {
-    float: left;
+
+.navitem {
+    line-height: 40px;
 }
 
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.about {
-    grid-column: 1; 
+#profilepic {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 
-.store {
-    grid-column: 2;
+a:hover {
+    text-decoration: underline;
 }
 
-.blank {
-    grid-column: 3;
-}
-
-.gmail {
-    grid-column: 4;
-}
-
-.images {
-    grid-column: 5;
-}
-
-.apps {
-    grid-column: 6;
-}
-
-.profile {
-    grid-column: 7
+a:visited {
+    color: purple;
 }

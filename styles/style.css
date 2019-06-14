@@ -1,0 +1,54 @@
+body {
+        background-color: white;
+}
+
+nav {
+    width: 100%;
+    grid-template-columns: 1fr 1fr 80% 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.about {
+    grid-column: 1; 
+}
+
+.store {
+    grid-column: 2;
+}
+
+.blank {
+    grid-column: 3;
+}
+
+.gmail {
+    grid-column: 4;
+}
+
+.images {
+    grid-column: 5;
+}
+
+.apps {
+    grid-column: 6;
+}
+
+.profile {
+    grid-column: 7
+}

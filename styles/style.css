@@ -26,9 +26,24 @@ nav {
 }
 
 #logo {
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+#searchbar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+#search, #lucky {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 a:hover {
     text-decoration: underline;
 }
